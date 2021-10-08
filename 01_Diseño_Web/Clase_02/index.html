@@ -1,0 +1,179 @@
+<!DOCTYPE html> <!--ESTO ES UN DOCUMENTO DE HTML5-->
+<html lang="en">
+    <head>
+        <!--ACA VA EL CONTENIDO QUE LOS HUMANOS NO VEN-->
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Clase 02</title>
+
+    </head>
+    <body>
+
+        <!--ACA VA EL CONTENIDO QUE LOS HUMANOS VEN-->
+
+        <!--ESTOS SON LOS ENCABEZADOS-->
+
+        <h1>ESTE ES EL TITULO PRINCIPAL</h1> <!--AL H1 USARLO SOLO 1 VEZ-->
+        <h2>Este es el subtitulo</h2>
+        <h3>Titulos de secciones</h3>
+        <h4>Titulos de articulos</h4>
+        <h5>Acepto terminos y condiciones</h5>
+        <h6>La letra chica</h6>
+
+        <!--PARRAFOS-->
+
+        <p>
+            ESTO ES UN PARRAFO
+            ACA SIGUE EL MISMO PARRAFO
+        </p>
+        <p>
+            ESTO ES OTRO PARRAFO
+        </p>
+        <p>
+            ESTO ES UN PARRAFO
+        </p>
+
+        <!-- LISTAS ORDENADAS Y DESORDENADAS  -->
+
+        <!-- LISTAS ORDENADAS -->
+
+        <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ol>
+
+        <!-- LISTAS DESORDENADAS -->
+
+        <ul>
+            <li>Elemento 1
+                <ol>
+                    <li>Elemento 1</li> <!-- ACA METIMOS UNA ETIQUETA ADENTRO DE OTRA, HICIMOS "ANIDACIÓN" -->
+                </ol>
+
+            </li>
+            <li>Elemento 2</li>
+        </ul>
+
+        <!-- HIPERVINCULOS -->
+
+        <a href="https://www.google.com" target="_blank">IR A GOOGLE</a> <!-- EL TARGET BLANK ES PARA QUE TE ABRA EL HIPERVINCULO EN OTRA PESTAÑA -->
+
+        <!-- COMO SALTEAR RENGLONES -->
+        
+        <br>
+
+        <!-- IMAGENES -->
+
+        <!-- ACA METEMOS UNA IMAGEN QUE SI LA APRETAMOS NOS LLEVA AL SITIO WEB DE ESA IMAGEN -->
+
+        <a href="https://javitour.com/lugares-para-visitar-en-hawaii/" target="_blank">
+        
+            <img src="https://javitour.com/wp-content/uploads/2018/08/Lugares-para-visitar-en-Hawaii_opt-10-1200x900.jpg" alt="Imagen de la playa de hawai"> <!-- SI PONEMOS ESTO SOLO, VA SOLO LA IMAGEN RECOMENDADO PNG-->
+
+            <img src="link de la imagen" alt="">
+        
+        </a>
+
+        <!-- COMO PONER UNA IMAGEN LOCAL -->
+
+        <img src="../assets/fotoboris.jpeg" alt="Imagen del boris">
+
+        <!-- COMO PONER UNA SECCION Y UN ARTICULO-->
+
+        <section>
+
+            <h2>Esto es una seccion</h2>
+
+            <article>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus odio illum quasi aspernatur beatae nulla assumenda sit rerum? Nemo adipisci quasi quis ea culpa tempore architecto aut mollitia, nulla dolore.
+
+            </article>
+
+            <article>
+
+                Esto es un articulo
+
+            </article>
+
+        </section>
+
+        <!-- COMO USAR LOS DIVS, SE LE PUEDE SUMAR FUNCIONALIDADES CON CSS Y JS -->
+
+        <div id="aca_va_un_nombre">
+
+            <section>
+
+                <h2>Esto es una seccion contenida en un div</h2>
+    
+                <article>
+    
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus odio illum quasi aspernatur beatae nulla assumenda sit rerum? Nemo adipisci quasi quis ea culpa tempore architecto aut mollitia, nulla dolore.
+    
+                </article>
+    
+                <article>
+    
+                    Esto es un articulo
+    
+                </article>
+    
+            </section> 
+
+        </div>
+
+        <!-- COMO PONER Y USAR LOS FORMULARIOS -->
+
+        <form>
+            <label for="Nombre" >Nombre y Apellido: </label>
+            <input name="Nombre" type="text" placeholder="Martini, Fabrizio">
+            <br>
+            <label for="Mail" >E-Mail: </label>
+            <input name="Mail" type="email" placeholder="fabriziomartini76@gmail.com" required/>
+            <br>
+            <label for="Password" >Password: </label>
+            <input name="Password" type="Password" required/>
+            <br>
+            <input type="number">
+            <br>
+            <input type="date">
+            <br>
+            <input type="color">
+            <br>
+            <input type="checkbox">
+            <input type="radio">
+            <br>
+            <input type="textarea">
+            <br>
+            <input type="file">
+            <br>
+            <input type="submit">
+
+        </form> 
+
+            <!-- COMO PONER FORMULARIO CON OPCIONES PREDETERMINADAS -->
+
+            <select>
+
+                <option value="Femenino">F</option>
+                <option value="Masculino">M</option>
+                <option value="No binarie">X</option>
+
+            </select>
+
+            <br>
+            
+            <!-- COMO PONER VIDEOS -->
+
+            <video width="320" height="240" controls>
+                
+                <source src="../assets/videoclase22.mp4" type="video/mp4" alt="cuando termine la cuarentena..">
+            
+            </video>
+
+    </body>
+</html>
